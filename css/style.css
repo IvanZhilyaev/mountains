@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;700&family=Montserrat:wght@400;700&display=swap');
+
+
+/* :root {
+
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+}
+
+.text-desc {
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 900;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.2em;
+}
+
+li {
+    list-style-type: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+/* header */
+
+header {
+    padding-top: 30px;
+    background: url(../img/1622048550_31-oir_mobi-p-kavkazskie-gori-priroda-krasivo-foto-33.jpeg) center no-repeat;
+    background-size: 100% 100%;
+    backdrop-filter: blur(10px);
+    height: 1000px;
+}
+
+header .menu {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding-left: 0;
+    justify-content: space-between;
+}
+
+header .menu li {
+    mix-blend-mode: overlay;
+}
+
+header .nav-bar {
+    width: 550px;
+    margin: 0 auto;
+}
+
+header .description .title h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    mix-blend-mode: overlay;
+}
+
+header .description {
+    margin-top: 100px;
+}
+
+header .description .title {
+    text-align: center;
+}
+
+header .description .text-desc {
+    line-height: 1.5em;
+    mix-blend-mode: overlay;
+}
+
+/* main-section */
+
+/* section geology */
+
+.section-geology .description {
+    display: flex;
+    align-items: center;
+}
+
+.section-geology .text-desc {
+    width: 800px;
+}
+
+.section-geology img {
+    width: 400px;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-geology .elbrus {
+    margin-bottom: 60px;
+}
+
+.section-geology .bazarduzu {
+    margin-bottom: -140px;
+}
+
+/* section population */
+
+.section-population {
+    margin-top: 100px;
+}
+
+.section-population .text-desc {
+    width: 800px;
+}
+
+.section-population .description {
+    display: flex;
+    align-items: center;
+}
+
+.section-population img {
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+/* section climate */
+
+.section-climate {
+    margin-top: 100px;
+}
+
+.section-climate .text-desc {
+    width: 800px;
+}
+
+.section-climate .description {
+    display: flex;
+    align-items: center;
+}
+
+.section-climate img {
+    width: 400px;
+    margin-bottom: 55px;
+}
+
+/* section gallery */
+
+.section-gallery {
+    margin-top: 100px;
+}
+
+.section-gallery .element-1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.section-gallery .element-1 a {
+    height: 226px;
+    width: 400px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.section-gallery .element-1 a img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section-gallery .first3-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-gallery img {
+    margin-right: 4px;
+    margin-bottom: 30px;
+}
+
+.section-gallery .sec3-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* footer */
+
+#footer {
+    margin-top: 100px;
+    background-color: black;
+    color: white;
+    padding: 30px 0 30px;
+}
+
+#footer a {
+    color: white;
+}
+
+#footer p {
+    margin-bottom: 0;
+}
