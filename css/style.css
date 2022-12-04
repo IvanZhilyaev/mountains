@@ -16,6 +16,7 @@ h1 {
 
 .text-desc {
     line-height: 1.5em;
+    text-align: justify;
 }
 
 a {
@@ -102,6 +103,7 @@ header .description .text-desc {
 
 .section-geology img {
     width: 400px;
+    margin-left: 20px;
 }
 
 .gallery {
@@ -135,6 +137,7 @@ header .description .text-desc {
 .section-population img {
     width: 400px;
     margin-bottom: 100px;
+    margin-left: 20px;
 }
 
 /* section climate */
@@ -155,6 +158,7 @@ header .description .text-desc {
 .section-climate img {
     width: 400px;
     margin-bottom: 55px;
+    margin-left: 20px;
 }
 
 /* section gallery */
